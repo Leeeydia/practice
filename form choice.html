@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <meta charset="utf-8"
+    <body>
+      <form action="http://localhost.color.php">
+<h1>색상</h1>
+<select name="color">
+  <!-- option태그는 select 태그로 묶어야함  // (참고) li 태그를 ul태그로 묶는 것  -->
+  <option value="red">붉은색</option>
+  <!-- 실제로 전송되는 데이터는 value 입력갑 red로 입력 됨 / 콤보박스 기본 / 컴퓨터가 좋아하는 정보? 뭐지 한글로 쓰면 안되나-->
+  <option value="black">검은색</option>
+  <option value="blue">파란색</option>
+</select>
+<h1>색상2 (다중선택)</h1>
+<select name="color2" multiple>
+  <!-- multiple 복수선택 -->
+  <option value="red">붉은색</option>
+  <option value="black">검은색</option>
+  <option value="blue">파란색</option>
+</select>
+<input type="submit">
+</form>
+    </body>
+  </head>
+</html>

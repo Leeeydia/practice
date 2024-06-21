@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="utf-8"
+  </head>
+  <body>
+    <form action="http://localhost/order.php">
+    <p>
+      <h1>색상</h1>
+    붉은색 : <input type="radio" name="color" value="red">
+    검은색 : <input type="radio" name="color" value="black" checked>
+    파란색 : <input type="radio" name="color" value="blue">
+    </p>
+<!-- value 쓰임이 뭐지 ,,, -->
+ <!-- checked 쓰면 미리 선택되어서 보여줌 -->
+    <p>
+      <h1>사이즈 (다중선택)</h1>
+      95 : <input type="checkbox" name="size" value="95">
+      100 : <input type="checkbox" name="size" value="100" checked>
+      105 : <input type="checkbox" name="size" value="105" checked>
+      </p>
+    <input type="submit">
+  
+    </form>
+
+      <!-- radio 버튼은 name값이 같은 것들끼리 그룹화 됨
+       같은 그룹에 속한 것중 하나가 선택되면 나머지 선택이 해제되는 형태 버튼 -->
+<!-- 다중선택은 radio 말고 check box -->
+  </body>
+</html>
